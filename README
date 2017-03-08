@@ -1,6 +1,8 @@
-This project provides a Launchpad interface from pure Windows API, advanced in light weight.
 
+This project provides a Launchpad interface from pure Windows API, advanced in light weight.
 
 Tho I cant figure out how to retrieve result from midi device (not keypressed data) so Now I have turned to rtmidi for further development.
 
 Function to retrieve results are rarely used in real situation, in nearly all the situation you only need to deal with keystroke in CALLBACK_PROC, which I have already done. Hope this project will do some help in your fast developing.
+
+In this project , midifile library is only used when PlayMidiFile(file)
